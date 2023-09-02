@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 
 const Form = (props) => {
 
-    const {task, setTask} = props;
+    const [task, setTask] = props;
 
     const [input, setInput] = useState("");
 
